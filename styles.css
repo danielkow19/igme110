@@ -140,7 +140,8 @@ footer
     grid-column: 1/5;
     grid-row: 3/4;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway Bold', sans-serif;
+    font-size: 14pt;
 
     background-color: #269DCD;
     color: white;
