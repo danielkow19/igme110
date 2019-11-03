@@ -7,6 +7,7 @@ body
 #landingPageGrid
 {
     display: grid;
+    height: 100%;
     grid-template-rows: 75px 1fr 75px;
     grid-template-columns: 100px 4fr 100px;
     background-color: #CBCBCB;
@@ -15,6 +16,7 @@ body
 #mainGrid
 {
     display: grid;
+    height: 100%;
     grid-template-rows: 75px 1fr 75px;
     grid-template-columns: 100px 4fr 100px 1fr;
     background-color: #CBCBCB;
@@ -106,6 +108,19 @@ main h1
     font-size: 48pt;
     font: 'Raleway Bold';
     margin-top: 0px;
+}
+
+.rightImage
+{
+    float: right;
+    clear: both;
+
+    max-width: 400px;
+}
+
+.sourceLink
+{
+    font-size: 10pt;
 }
 
 aside
