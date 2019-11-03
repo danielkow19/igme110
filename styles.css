@@ -1,0 +1,138 @@
+body
+{
+    margin: 0;
+    height: 100vh;
+}
+
+#mainGrid
+{
+    display: grid;
+    grid-template-rows: 75px 1fr 75px;
+    grid-template-columns: 100px 4fr 100px 1fr;
+    background-color: #CBCBCB;
+}
+
+header
+{
+    padding: 10px;
+    background-color: #269DCD;
+    color: white;
+
+    position: sticky;
+    top: 0px;
+
+    grid-column: 1/5;
+    grid-row: 1/2;
+
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 300px 1fr 125px 125px 125px;
+}
+
+header a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#title
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    margin: 0px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30pt;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pageNav
+{
+    grid-row: 1/2;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 24pt;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-left: 2px #076E98 solid;
+}
+
+#page1Nav
+{
+    grid-column: 3/4;
+}
+
+#page2Nav
+{
+    grid-column: 4/5;
+}
+
+#sourcesNav
+{
+    grid-column: 5/6;
+    border-right: 2px #076E98 solid;
+}
+
+main
+{
+    padding: 35px;
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+
+    background-color: white;
+    color: #2D2D2D;
+}
+
+main h1
+{
+    font-size: 48pt;
+    font: 'Raleway Bold';
+    margin-top: 0px;
+}
+
+aside
+{
+    padding: 20px;
+
+    grid-column: 4/5;
+    grid-row: 2/3;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+
+    background-color: white;
+    color: #2D2D2D;
+}
+
+aside h2
+{
+    font: 'Raleway Bold';
+    font-size: 24pt;
+    margin-top: 0px;
+}
+
+footer
+{
+    padding-top: 8px;
+
+    display: flex;
+    justify-content: center;
+
+    grid-column: 1/5;
+    grid-row: 3/4;
+
+    font-family: 'Raleway', sans-serif;
+
+    background-color: #269DCD;
+    color: white;
+}
