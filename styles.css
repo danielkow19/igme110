@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     height: 100vh;
+    background-color: #CBCBCB;
 }
 
 #landingPageGrid
@@ -10,7 +11,6 @@ body
     height: 100%;
     grid-template-rows: 75px 1fr 75px;
     grid-template-columns: 100px 4fr 100px;
-    background-color: #CBCBCB;
 }
 
 #mainGrid
@@ -19,7 +19,6 @@ body
     height: 100%;
     grid-template-rows: 75px 1fr 75px;
     grid-template-columns: 100px 4fr 100px 1fr;
-    background-color: #CBCBCB;
 }
 
 header
