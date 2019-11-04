@@ -127,6 +127,12 @@ main h1
     max-width: 300px;
 }
 
+.asideImage
+{
+    max-width: 100%;
+    margin: 0px 0px 15px 0px;
+}
+
 .sourceLink
 {
     font-size: 14pt;
