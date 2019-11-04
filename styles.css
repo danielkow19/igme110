@@ -105,7 +105,7 @@ main
 main h1
 {
     font-size: 48pt;
-    font: 'Raleway Bold';
+    font: 'Raleway Bold', sans-serif;
     margin-top: 0px;
 }
 
@@ -154,7 +154,7 @@ aside
 
 aside h2
 {
-    font: 'Raleway Bold';
+    font: 'Raleway Bold', sans-serif;
     font-size: 24pt;
     margin-top: 0px;
 }
